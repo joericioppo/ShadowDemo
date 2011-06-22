@@ -3,7 +3,7 @@
 //  ShadowBoxing
 //
 //  Created by Joe Ricioppo on 4/6/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  BDS licence booyaa
 //
 
 #import "ShadowBoxingViewController.h"

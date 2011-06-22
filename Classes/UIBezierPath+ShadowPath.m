@@ -3,7 +3,7 @@
 //  ShadowBoxing
 //
 //  Created by Joe Ricioppo on 4/6/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  BDS licence booyaa
 //
 
 #import "UIBezierPath+ShadowPath.h"
