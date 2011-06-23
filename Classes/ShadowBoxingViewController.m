@@ -15,6 +15,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+    self.view.backgroundColor = [UIColor underPageBackgroundColor];
+    
 	UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 500.0, 375.0)];
 	view.center = self.view.center;
 	view.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | 
@@ -23,10 +25,10 @@
 	view.layer.borderColor = [UIColor colorWithWhite:1.0 alpha:1.0].CGColor;
 	view.layer.borderWidth = 5.0;
 	view.layer.shadowOffset = CGSizeMake(0, 3);
-	view.layer.shadowOpacity = 0.7;	
+	view.layer.shadowOpacity = 0.3;	
 	view.layer.shouldRasterize = YES;
 
-	UIBezierPath *path = [UIBezierPath bezierPathWithCurvedShadowForRect:view.bounds];	
+	UIBezierPath *path = [UIBezierPath bezierPathWithCurvedInsetShadowForRect:view.bounds];	
 	view.layer.shadowPath = path.CGPath;	
 	
 	[self.view addSubview:view];
